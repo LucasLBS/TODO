@@ -1,0 +1,32 @@
+.notificationButton {
+	--buttom-size: 2.188rem;
+	--img-size: 1.563rem;
+	--line-color: #E7E9ED;
+	--all-transition-time: .3s;
+	--full-around-button: 50%;
+	--reset-button-border: 0;
+	--font-reset: 0;
+	
+	background: transparent;
+	border: var(--reset-button-border);
+	font-size: var(--font-reset);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: var(--buttom-size);
+	height: var(--buttom-size);
+	border-radius: var(--full-around-button);
+	cursor: pointer;
+	transition: all var(--all-transition-time);
+	user-select: none;
+
+	&:active{
+		background: var(--line-color);
+	}
+
+	img {
+		
+		width: var(--img-size);
+		height: var(--img-size);
+	}
+}
