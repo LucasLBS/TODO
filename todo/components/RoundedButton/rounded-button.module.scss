@@ -2,11 +2,12 @@
 	--buttom-size: 2.188rem;
 	--img-size: 1.563rem;
 	--line-color: #E7E9ED;
-	--all-transition-time: .3s;
+	--all-transition-time: .2s;
 	--full-around-button: 50%;
 	--reset-button-border: 0;
 	--font-reset: 0;
-	
+
+	position: relative;
 	background: transparent;
 	border: var(--reset-button-border);
 	font-size: var(--font-reset);

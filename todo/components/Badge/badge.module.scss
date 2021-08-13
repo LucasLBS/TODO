@@ -1,0 +1,28 @@
+.badge{
+	--alert-color: #FB0218;
+	--height: .75rem;
+	--min-width: .688rem;
+	--font: normal normal 600 10px/13px Montserrat;
+	--font-color: #fff;
+	--border-round: 0.188rem;
+	--top-position:  5px;
+	--left-position: 2px;
+	--z-index: 1;
+
+	position: absolute;
+	left: var(--top-position);
+	top: var(--left-position);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: var(--min-width);
+	height: var(--height);
+	padding: .1rem;
+	background: var(--alert-color);
+	font: var(--font);
+	color: var(--font-color);
+	border-radius: var(--border-round);
+	z-index: var(--z-index);
+
+
+}
